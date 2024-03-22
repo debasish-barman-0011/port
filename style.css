@@ -1,0 +1,41 @@
+h2{
+    color: #294B29;
+}
+#pname{
+    color: #04AA6D;
+}
+
+.logo h2,
+h5{
+    color: #007BFF;
+}
+/* Adjust size of carousel images for small screens */
+.carousel-item img {
+  max-height: 400px; /* Adjust as needed */
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Hide horizontal scrollbar */
+body {
+  overflow-x: hidden;
+}
+
+/* Center the carousel on larger screens */
+@media (min-width: 768px) {
+  .carousel {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+  .carousel-item img {
+    min-height: 600px; /* Reduce the maximum height */
+    width: auto;
+  }
+}
+
+/* Adjust size of carousel images for small screens */
+.carousel-item img {
+  max-height: 400px; /* Adjust as needed */
+  width: auto;
+  margin: 0 auto;
+}
